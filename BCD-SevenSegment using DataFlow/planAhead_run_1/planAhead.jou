@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Dec 28 01:21:39 2022
+# Process ID: 12440
+# Log file: C:/Users/Maaz/test/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Maaz/test/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Maaz/test/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {anodeOut[3]}]]
